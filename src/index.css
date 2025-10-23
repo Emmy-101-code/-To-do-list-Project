@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom globals */
+:root{
+  --bg1: #0f172a; /* deep */
+  --accent1: #7c3aed; /* purple */
+  --accent2: #06b6d4; /* cyan */
+}
+
+html,body,#root{height:100%;}
+body{
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(135deg, rgba(12,11,38,1) 0%, rgba(12,8,54,1) 50%, rgba(10,24,41,1) 100%);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color: #e6eef8;
+}
+
+/* glass card */
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.06);
+}
